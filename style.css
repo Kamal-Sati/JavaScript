@@ -1,0 +1,1118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+
+}
+
+html,
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 2px solid black; */
+}
+
+.top-nav {
+    width: 100%;
+    background-color: #343434;
+}
+
+.topnavBar {
+    color: white;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 21px;
+    font-size: 14px;
+}
+
+.topnavBar ul {
+    display: flex;
+}
+
+#font1 {
+    padding-right: 6px;
+}
+
+.topnavBar ul #font {
+    padding-left: 29px;
+    padding-right: 6px;
+}
+
+#spn1:hover,
+#spn2:hover,
+#spn3:hover {
+    transition: 0.3s ease;
+    cursor: pointer;
+    color: #ffe858;
+}
+
+/* second nav bar css */
+
+.nav {
+    width: 100%;
+    background-color: black;
+}
+
+.nav-bar {
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li {
+    position: relative;
+    list-style: none;
+    padding: 0 27px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+.nav-bar ul a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav-bar ul a::after {
+    content: '';
+    position: absolute;
+    background-color: #ffe858;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -8px;
+    transition: all 0.5s ease;
+}
+
+.nav-bar ul a:hover {
+    color: #ffe858;
+}
+
+.nav-bar ul a:hover::after {
+    width: 87%;
+
+}
+
+.nav-bar #image {
+    width: 122px;
+    height: 53px;
+    cursor: pointer;
+}
+
+/* body css */
+.outerbody1 {
+    width: 100%;
+    background-color: #e7e7e7;
+}
+
+.innerbody1 {
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.div1 {
+    width: 600px;
+    min-height: 440px;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+}
+
+.div1 #div1spn {
+    font-size: 44px;
+    font-weight: 600;
+    display: inline-block;
+    height: 102px;
+    width: 480px;
+
+
+}
+
+.div1 #div1 p {
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 380px;
+    display: inline-block;
+    height: 52px;
+    width: 480px;
+  
+
+}
+
+.div1 #div1btn {
+    margin-top: 16px;
+    display: block;
+    height: 53px;
+    width: 162px;
+    cursor: pointer;
+    border-radius: 50px;
+    color: black;
+    background-color: #ffe858;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.div1 #div1btn:hover {
+    background-color: #fcb900;
+}
+
+.div2 {
+    display: inline-block;
+}
+
+.div2 #image {
+    width: 570px;
+    height: 450px;
+}
+
+
+.outerbody2 {
+    width: 100%;
+    background-color: white;
+}
+
+.innerbody2 {
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.div2spn1 {
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.div2spn2 {
+    display: block;
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 54px;
+}
+
+.div2spn2 a {
+    position: relative;
+    color: #3576cc;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.div2spn2 a::after {
+    content: '';
+    position: absolute;
+    background-color: #3576cc;
+    color: #3576cc;
+
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+    transition: all 0.1s ease;
+}
+
+.div2spn2 a:hover {
+    color: #3576cc;
+
+}
+
+.div2spn2 a:hover::after {
+    width: 100%;
+}
+
+.innerbody2 .box1 {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+.priceboxdiv {
+    display: flex;
+}
+
+.priceboxdiv .box2,
+.box3,
+.box4 {
+    border: 2px solid #3576cc;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, .1);
+}
+
+.box2 {
+    width: 370px;
+    min-height: 872px;
+    border: 2px solid #3576cc;
+    margin: 20px 13px;
+    padding: 60px 20px 32px;
+    color: #000000;
+}
+
+.box2 .box2Heading {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 62px;
+}
+
+
+.box2circle {
+    background: url(image/internet-download-speed-fast-chart2x.png) no-repeat center;
+    background-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 209px;
+    margin-right: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: calc(66.66666667% - 15px);
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.box2circle .circleinner1,
+.circleinner3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.box2circle .circleinner2 {
+    color: #3576cc;
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 1;
+    margin: 5px 0;
+
+}
+
+.box2 .box2price {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 72px;
+    margin-top: 34px;
+}
+
+.box2 .box2priceDiscount {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 2px 0 34px;
+    padding: 0 8px;
+    text-decoration: line-through;
+}
+
+.box2 #box2Btn {
+    width: 168px;
+    min-height: 55px;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.box2 #box2Btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.box2 #box2Btn:hover {
+    background-color: #e7e7e7;
+    cursor: pointer;
+}
+
+.box2 .box2discripstion ul li {
+    list-style: none;
+}
+
+.box2 #firstli {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 450;
+    padding-bottom: 6px;
+    margin-top: 32px;
+}
+
+.box2 #secondli {
+    font-size: 14px;
+    font-weight: 450;
+    padding-bottom: 6px;
+    line-height: 1.6;
+
+}
+
+.box2 #thirdli {
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.box3 {
+    width: 370px;
+    height: 835.4px;
+    border: 2px solid #3576cc;
+    margin: 20px 13px;
+    padding: 60px 20px 32px;
+    position: relative;
+}
+
+.box3 #box3topdiv {
+    background-color: #3576cc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    content: 'Best Deal';
+    font-size: 14px;
+    font-weight: 600;
+    left: 50%;
+    letter-spacing: 2px;
+    line-height: 30px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 140px;
+}
+
+.box3 .box3Heading {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+
+.box3circle {
+    background: url(image/internet-download-speed-faster-chart2x.png) no-repeat center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 209px;
+    margin-right: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: calc(66.66666667% - 15px);
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 38px;
+}
+
+.box3circle .circleinner1,
+.circleinner3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.box3circle .circleinner2 {
+    color: #3576cc;
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 1;
+    margin: 5px 0;
+
+}
+
+.box3 .box3price {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 72px;
+    margin-top: 34px;
+}
+
+.box3 .box3priceDiscount {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 2px 0 34px;
+    padding: 0 8px;
+    text-decoration: line-through;
+}
+
+.box3 #box3Btn {
+    width: 168px;
+    min-height: 55px;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.box3 #box3Btn a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.box3 #box3Btn:hover {
+    background-color: #e7e7e7;
+    cursor: pointer;
+}
+
+.box3 .box3discripstion ul li {
+    list-style: none;
+}
+
+.box3 #firstli {
+    font-size: 14px;
+    font-weight: 450;
+    padding-bottom: 16px;
+    margin-top: 32px;
+}
+
+.box3 #secondli {
+    font-size: 14px;
+    font-weight: 450;
+    padding-bottom: 16px;
+    line-height: 1.4;
+
+}
+
+.box3 #thirdli {
+    font-size: 14px;
+    font-weight: 550;
+
+}
+
+
+.box4 {
+    width: 370px;
+    min-height: 872px;
+    border: 2px solid #3576cc;
+    margin: 20px 13px;
+    padding: 60px 20px 32px;
+    color: #000000;
+
+}
+
+.box4 .box4Heading {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 62px;
+}
+
+
+.box4circle {
+    background: url(image/internet-download-speed-faster-chart2x.png) no-repeat center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 209px;
+    margin-right: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: calc(66.66666667% - 15px);
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.box4circle .circleinner1,
+.circleinner3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.box4circle .circleinner2 {
+    color: #3576cc;
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 1;
+    margin: 5px 0;
+
+}
+
+.box4 .box4price {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 72px;
+    margin-top: 34px;
+}
+
+.box4 .box4priceDiscount {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 2px 0 34px;
+    padding: 0 8px;
+    text-decoration: line-through;
+}
+
+.box4 #box4Btn {
+    width: 168px;
+    min-height: 55px;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.box4 #box4Btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.box4 #box4Btn:hover {
+    background-color: #e7e7e7;
+    cursor: pointer;
+}
+
+.box4 .box4discripstion ul li {
+    list-style: none;
+}
+
+.box4 #firstli {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 450;
+    padding-bottom: 6px;
+    margin-top: 32px;
+}
+
+.box4 #secondli {
+    font-size: 14px;
+    font-weight: 450;
+    padding-bottom: 6px;
+    line-height: 1.6;
+
+}
+
+.box4 #thirdli {
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.innerbody2 #firstpara {
+    font-size: 14px;
+    margin-bottom: 24px;
+    margin-top: 40px;
+    font-weight: 450;
+}
+
+.innerbody2 #secondpara {
+    font-size: 14px;
+    margin-bottom: 24px;
+    font-weight: 450;
+
+}
+
+.innerbody2 #thirdpara {
+    font-size: 14px;
+}
+
+.innerbody2 #thirdpara a {
+    color: #3576cc;
+    /* text-decoration: none; */
+}
+
+.outerbodydiv3 {
+    margin-top: 122px;
+    height: 282px;
+    width: 100%;
+    background-color: #000000;
+
+}
+
+.outerbodydiv3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.outerbodydiv3 a {
+    text-decoration: none;
+}
+
+.outerbodydiv3 #body3a1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.outerbodydiv3 #body3p1 {
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.outerbodydiv3 #body3p1 a {
+    color: #fcb900;
+
+}
+
+.outerbodydiv4 {
+    width: 100%;
+    background-color: #fff;
+}
+
+.innerbodydiv4 {
+    min-height: 490px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    text-align: center;
+
+
+}
+
+.innerbodydiv4 .divfirst,
+.div2,
+.div3,
+.div4 {
+    height: 270px;
+    width: 260px;
+}
+
+.divfirst h3 {
+    font-family: "Work Sans";
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 23px;
+    margin-top: 12px;
+}
+
+.divfirst p {
+    font-size: 18px;
+    font-family: "Work Sans";
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    margin-bottom: 89px;
+}
+
+.div2 h3 {
+    font-family: "Work Sans";
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 23px;
+    margin-top: 12px;
+
+}
+
+.divfirst a {
+    color: #3576cc;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.div2 p {
+    font-size: 18px;
+    font-family: "Work Sans";
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    margin-bottom: 89px;
+
+}
+
+.div2 a {
+    color: #3576cc;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+
+}
+
+.div3 h3 {
+    font-family: "Work Sans";
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 23px;
+    margin-top: 12px;
+
+}
+
+.div3 p {
+    font-size: 18px;
+    font-family: "Work Sans";
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    margin-bottom: 32px;
+}
+
+.div3 a {
+    color: #3576cc;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.div4 h3 {
+    font-family: "Work Sans";
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 23px;
+    margin-top: 12px;
+
+}
+
+.div4 p {
+    font-size: 18px;
+    font-family: "Work Sans";
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    margin-bottom: 89px;
+}
+
+.div4 a {
+    color: #3576cc;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.innerbodydiv4 .div2 #image {
+    height: 82px;
+    width: 98px;
+}
+
+.outerbodydiv5 {
+    width: 100%;
+    height: 894px;
+    background-image: url('image/home-eero-dsktp-bg two table image.jpg');
+    background-size: 100%;
+    background-position: center;
+    /* display: flex; */
+    /* text-align: center; */
+    /* align-items: end; */
+}
+
+
+
+.outerbodydiv6 {
+    width: 100%;
+    background-color: white;
+}
+
+.innerbodydiv6 {
+    min-height: 626px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.innerbodydiv6 span {
+    font-family: "Work Sans";
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.innerbodydiv6 p {
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 23px;
+}
+
+.innerbodydiv6 a {
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 23px;
+    color: #3576cc;
+    text-decoration: none;
+}
+
+.outerbodydiv7 {
+    width: 100%;
+    min-height: 690px;
+    background-color: white;
+}
+
+.innerbodydiv7 {
+    min-height: 538px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/home-vyve-gig-dsktp-bggamevali.jpg);
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.innerbodydiv7 span {
+
+    height: 144px;
+    width: 370px;
+    font-size: 32px;
+    /* align-items: center; */
+    font-weight: 700;
+}
+
+.innerbodydiv7 p {
+    font-size: 16px;
+    margin-top: 22px;
+    line-height: 1.57;
+}
+
+.innerbodydiv7 #span2 {
+    margin-top: 22px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.innerbodydiv7 button {
+    /* margin-top: 3px; */
+    height: 54px;
+    width: 175px;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    bottom: 44px;
+}
+
+.innerbodydiv7 button a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.outerbody8 {
+    width: 100%;
+    background-color: #ffe858;
+    display: flex;
+
+}
+
+
+/* .outerbody8 #image{
+    width: 744px;
+    min-height: 460px;
+} */
+.innerbodydiv8 .innerbox2 {
+    width: 570px;
+    min-height: 460px;
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.innerbodydiv8 {
+    display: flex;
+}
+
+.innerbodydiv8 #image {
+    width: 744px;
+    min-height: 460px;
+    position: relative;
+    right: 163px;
+}
+
+.innerbox2 #spn {
+    font-size: 28px;
+    font-weight: 550;
+}
+
+.innerbox2 p {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.innerbox2 p a {
+    color: #3576cc;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.innerbox2 button {
+    margin-top: 25px;
+    height: 49px;
+    width: 155px;
+    border-radius: 50px;
+    color: #000000;
+    background-color: #fff;
+
+    border: none;
+}
+
+.innerbox2 button a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.outerdiv9 {
+    width: 100%;
+    height: 152px;
+    background-color: #3576cc;
+    ;
+    position: relative;
+    bottom: 49px;
+    display: flex;
+    justify-content: center;
+}
+
+.outerdiv10 {
+    width: 100%;
+    background-color: #343434;
+    position: relative;
+    bottom: 49px;
+
+
+
+}
+
+.innerdiv10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 140px;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.innerdiv10 button {
+    height: 49px;
+    width: 270px;
+    color: #000000;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 6px;
+    border: none;
+    font-size: 18px;
+    font-weight: 450;
+    padding-right: 186px;
+}
+
+.innerdiv10 select {
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+    left: 11px;
+}
+.innerdiv10 option{
+    color: #3576cc;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    
+}
+.innerdiv10  #arrow{
+    color: #fcb900;
+}
+
+
+
+.outerdiv11 {
+    width: 100%;
+    background-color: #343434;
+    position: relative;
+    bottom: 49px;
+}
+
+.innerdiv11 {
+    height: 430px;
+    /* border: 2px solid salmon; */
+}
+
+.innerdiv11 .alldivbox {
+    height: 370px;
+    color: #ffe858;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+    font-size: 20px;
+
+}
+
+.innerdiv11 .alldivbox li,
+a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 13px;
+}
+
+.innerdiv11 .alldivbox li a:hover {
+    color: #ffe858;
+}
+
+.enddiv4 ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.enddiv4 a {
+    font-size: 30px;
+}
+
+.enddiv4 #thirdli {
+    position: relative;
+    right: 13px;
+}
+
+.outerdiv12 {
+    background-color: #343434;
+    border-top: 1px solid #fff;
+    position: relative;
+    bottom: 49px;
+    border-bottom: 1px solid #343434;
+
+
+}
+
+.innerdiv12 {
+    height: 54px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
