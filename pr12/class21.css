@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 133px;
+}
+.maindiv{
+    background-color: yellow;
+    border-radius: 7px;
+    border: none;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+}
+
+.maindiv button{
+    border: none;
+    border-radius: 5px;
+    height: 19px;
+    width: 50px;
+    color: #fff;
+    font-weight: 700;
+}
