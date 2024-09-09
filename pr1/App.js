@@ -85,41 +85,38 @@ const crossBtn = document.querySelector('.off');
 const main = document.querySelector('.nav_links');
 let isMenuOpen = false;
 
-// Open menu when menu button is clicked
+
 menuBtn.addEventListener('click', () => {
   isMenuOpen = true;
 
-  // Show the cross button and hide the menu button
+  
   crossBtn.style.display = 'block';
   menuBtn.style.display = 'none';
 
-  // Toggle the menu visibility
   main.classList.add("ulActive");
 });
 
-// Close menu when cross button is clicked
+
 crossBtn.addEventListener('click', () => {
   isMenuOpen = false;
 
-  // Hide the cross button and show the menu button
   crossBtn.style.display = 'none';
   menuBtn.style.display = 'block';
 
-  // Hide the menu
   main.classList.remove("ulActive");
 });
 
-// Close the menu when any link is clicked
+
 main.addEventListener('click', () => {
   if (isMenuOpen) {
-    // Close the menu
+
     isMenuOpen = false;
 
-    // Hide the cross button and show the menu button
+
     crossBtn.style.display = 'none';
     menuBtn.style.display = 'block';
 
-    // Hide the menu
+    
     main.classList.remove("ulActive");
   }
 });
