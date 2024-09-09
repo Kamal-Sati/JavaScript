@@ -1,0 +1,53 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 22px;
+    background-color: grey;
+    color: white;
+}
+
+#inputfield {
+    height: 37px;
+    width: 177px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    font-size: 24px; 
+    
+}
+
+#btn {
+    height: 35px;
+    width: 107px;
+    border-radius: 7px;
+    border: none;
+    background-color: aqua;
+    color: white;
+    color: black;
+
+}
+.resutlparas{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#newGame{
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+    height: 35px;
+    width : 177px;
+
+}
