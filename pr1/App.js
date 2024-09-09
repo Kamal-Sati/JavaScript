@@ -1,21 +1,4 @@
-// src="https://unpkg.com/aos@next/dist/aos.js"
-// AOS.init({
-//     offset: 300,
-//     duration: 1000,
-//     once: true,
 
-// });
-
-
-
-
-// setTimeout(() => {
-//     document.querySelectorAll('[data-aos]').forEach(function (element) {
-//         if (!element.classList.contains('aos-animate')) {
-//             element.classList.add('aos-animate');
-//         }
-//     });
-// }, 1000);
 
 const scrollRevealOption = {
   distance: "50px",
